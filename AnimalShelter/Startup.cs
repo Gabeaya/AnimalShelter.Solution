@@ -42,6 +42,7 @@ namespace AnimalShelter
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Animal shelter API V");
+                c.RoutePrefix = string.Empty;
             });
 
             if (env.IsDevelopment())
