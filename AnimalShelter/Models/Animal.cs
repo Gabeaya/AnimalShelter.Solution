@@ -7,7 +7,7 @@ namespace AnimalShelter.Models
         public string Species { get; set; }
         public int Age { get; set; }
         public string Gender { get; set; }
-        public int DateRecievied { get; set; }
+        public string DateRecievied { get; set; }
         public int Price { get; set; }
     }
 }
