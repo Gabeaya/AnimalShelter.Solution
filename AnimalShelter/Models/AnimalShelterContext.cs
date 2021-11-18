@@ -8,7 +8,7 @@ namespace AnimalShelter.Models
             : base(options)
         {
         }
-
         public DbSet<Animal> Animals { get; set; }
     }
+    
 }
