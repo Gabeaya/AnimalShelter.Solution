@@ -25,8 +25,8 @@ namespace AnimalShelter.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<int>("DateRecievied")
-                        .HasColumnType("int");
+                    b.Property<string>("DateRecievied")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Gender")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");

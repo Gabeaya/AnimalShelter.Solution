@@ -17,7 +17,7 @@ namespace AnimalShelter.Migrations
                     Species = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
                     Age = table.Column<int>(type: "int", nullable: false),
                     Gender = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    DateRecievied = table.Column<int>(type: "int", nullable: false),
+                    DateRecievied = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
                     Price = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

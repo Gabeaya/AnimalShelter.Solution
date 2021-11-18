@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimalShelter.Migrations
 {
     [DbContext(typeof(AnimalShelterContext))]
-    [Migration("20211118192845_Initial")]
+    [Migration("20211118202906_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,8 +27,8 @@ namespace AnimalShelter.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<int>("DateRecievied")
-                        .HasColumnType("int");
+                    b.Property<string>("DateRecievied")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Gender")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
