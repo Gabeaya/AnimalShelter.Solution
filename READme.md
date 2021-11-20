@@ -1,4 +1,4 @@
-# Animal Shelter :dog2:	:cat2:	
+# :dog2: Animal Shelter	:cat2:	
 ####  Building an API. C# Project #6 - 11/6/21 
 
 
